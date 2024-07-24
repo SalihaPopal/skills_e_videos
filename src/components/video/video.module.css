@@ -1,0 +1,107 @@
+.container{
+  display: flex;
+  gap: 24px;
+}
+
+.content{
+  flex: 5;
+  margin-left: 24px;
+}
+
+.title{
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.info{
+  color: var(--text-soft-color);
+}
+
+.buttons{
+  display: flex;
+  gap: 20px;
+
+}
+
+.btn{
+  text-decoration: none;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hr{
+  border: 0.5px solid var(--hr-color);
+  margin: 15px 0px;
+}
+
+.channel{
+  display: flex;
+  justify-content: space-between;
+}
+
+.channelInfo{
+  display: flex;
+  gap: 20;
+}
+
+.channelImg{
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.channelDetail{
+  display: flex;
+  flex-direction: column;
+  color: var(--text-color);
+}
+
+.channelName{
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.description{
+  font-size: 14px;
+}
+
+.channelSubscribe{
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: var(--text-soft-color);
+  font-size: 12px;
+}
+
+.subscriptionBtn{
+  background-color: red;
+  font-weight: 500;
+  color: white;
+  height: fit-content;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.recommendation{
+  flex: 2;
+}
+
+.cardsContainer{
+  display: flex;
+  flex-direction: column;
+  size: small;
+}

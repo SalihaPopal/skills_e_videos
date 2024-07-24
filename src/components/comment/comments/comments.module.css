@@ -1,0 +1,25 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.newComment{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.channelImg{
+  border-radius: 50px;
+}
+
+.input{
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.5px solid var(--text-soft-color);
+  color: var(--text-color);
+  outline: none;
+  padding: 5px;
+  width: 100%;
+}

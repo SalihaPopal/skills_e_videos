@@ -1,0 +1,8 @@
+.container{
+  display: flex;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+.main{
+  flex: 7;
+}
